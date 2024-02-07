@@ -1,0 +1,121 @@
+/* 
+Colors Time Machine Travel image
+Blue: #4996ff
+Gray: #979c9f
+Light-blue: #bfd8ff
+
+Customer Experience Agency
+
+Red: #ec5648
+Blue: #3b72ab
+Light-blue: #d4e8ff
+Pink: #cf4abf
+
+*/
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+  @font-face {
+    font-family: 'HachiMaruPop';
+    src: url('../fonts/HachiMaruPop-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'JustMeAgainDownHere';
+    src: url('../fonts/JustMeAgainDownHere-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+    
+  html {
+font-size: 62.5%; 
+/*ROOT measurment for HTML file based on 100% of the basic font size 
+basic font size is usually 16px (100%)
+this basic font size is 10px (62.5%) 
+easier to caluculate rems 10px = 1rem
+Basic font size in rem: 1.6rem (if you want to refer to 16px)
+*/
+  }
+/*General*/
+
+body {
+  font-family: sans-serif;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  font-size: 2rem;
+  background-color: #D8D0C5;
+}
+
+header {
+  font-family: HachiMaruPop;
+  font-size: 1rem;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'JustMeAgainDownHere';
+  font-size: 3.5rem;
+}
+
+.date {
+  margin-left: 25rem;
+}
+
+img {
+  width: 100%;
+  scale:inherit;
+}
+
+.logo-img {
+  background-color: transparent;
+  max-height: 10rem;
+  margin-top: 2rem;
+}
+
+
+/*header*/
+
+
+/*main*/
+/*footer*/
+
+
+/*Media Queries*/
+@media only screen and (max-width: 1024px) { 
+  body {
+    height: auto;
+    overflow: visible;
+  }
+  .padding-mobile {
+    padding: 0 1.5rem;
+  }
+  
+  .row {
+    flex-direction: column;
+  }
+
+  main {
+    padding-top: 10rem;
+  }
+
+  .margin-left {
+    margin-left: 0.1rem;
+  }
+  html {
+    font-size: 52.5%; 
+      }
+      .btn-big {
+        padding: 2rem 4rem 2.2rem 4rem;
+        font-size: 2rem;
+        margin: 1rem 0 3rem 0;
+        }    
+}
