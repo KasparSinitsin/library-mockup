@@ -64,15 +64,13 @@ header {
 h2 {
   font-family: 'JustMeAgainDownHere';
   font-size: 3.5rem;
-}
-
-.date {
-  margin-left: 25rem;
+  text-align: center;
 }
 
 img {
   width: 100%;
   scale:inherit;
+  margin: auto;
 }
 
 .logo-img {
@@ -112,10 +110,5 @@ img {
   }
   html {
     font-size: 52.5%; 
-      }
-      .btn-big {
-        padding: 2rem 4rem 2.2rem 4rem;
-        font-size: 2rem;
-        margin: 1rem 0 3rem 0;
-        }    
+      }  
 }
